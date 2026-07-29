@@ -26,4 +26,4 @@ jobs:
         run: mvn package -DskipTests
 
      
-        run: docker push ${{ secrets.DOCKER_USERNAME }}/springboot-jdbc-demo:latest
+ 
